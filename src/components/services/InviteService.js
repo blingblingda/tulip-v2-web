@@ -1,4 +1,4 @@
-const BACKEND_URL = "https://tulip-back-end.onrender.com";
+const BACKEND_URL = process.env.REACT_APP_API_URL;
 
 // Fetch received invites for a user from the backend
 export const fetchReceivedInvites = async (userId, token) => {

@@ -1,4 +1,4 @@
-const BACKEND_URL = "https://tulip-back-end.onrender.com";
+const BACKEND_URL = process.env.REACT_APP_API_URL;
 
 // Function to fetch user profile based on userId and token
 export const fetchUser = async (userId, token) => {
