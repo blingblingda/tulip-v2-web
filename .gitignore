@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local credentials and generated files
+.env
+.env.*
+!.env.example
+.DS_Store
+node_modules/
